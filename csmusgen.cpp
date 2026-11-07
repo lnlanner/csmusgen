@@ -699,7 +699,7 @@ void make_form()
   pch_12->textfont(IN_TEXT_FONTS);
 
   counterpointPitch = new
-Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counterp.");
+Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*7+20,CTRL_W,CTRL_H,"Counterp.");
   counterpointPitch->menu(ctpPitch);
   counterpointPitch->color(COLOR2);
   counterpointPitch->box(BOX_TYPE2);
@@ -854,7 +854,7 @@ Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counte
   dur_12->cursor_color(TXT_COLOR2);
   dur_12->textfont(IN_TEXT_FONTS);
 
-  counterpointDur = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H+20,CTRL_W,CTRL_H,"Counterp.");
+  counterpointDur = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*3+20,CTRL_W,CTRL_H,"Counterp.");
   counterpointDur->menu(ctpDur);
   counterpointDur->color(COLOR2);
   counterpointDur->box(BOX_TYPE2);
@@ -999,7 +999,7 @@ Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counte
   db_12->cursor_color(TXT_COLOR2);
   db_12->textfont(IN_TEXT_FONTS);
 
-  counterpointDb = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*3+20,CTRL_W,CTRL_H,"Counterp.");
+  counterpointDb = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*5+20,CTRL_W,CTRL_H,"Counterp.");
   counterpointDb->menu(ctpDb);
   counterpointDb->color(COLOR2);
   counterpointDb->box(BOX_TYPE2);
@@ -1145,7 +1145,7 @@ Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counte
   instr_12->cursor_color(TXT_COLOR2);
   instr_12->textfont(IN_TEXT_FONTS);
 
-  counterpointInstr = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*5+20,CTRL_W,CTRL_H,"Counterp.");
+  counterpointInstr = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counterp.");
   counterpointInstr->menu(ctpInstr);
   counterpointInstr->color(COLOR2);
   counterpointInstr->box(BOX_TYPE2);
@@ -1289,7 +1289,7 @@ Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP,CTRL_W,CTRL_H,"Counte
   act_12->cursor_color(TXT_COLOR2);
   act_12->textfont(IN_TEXT_FONTS);
 
-  counterpointAct = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H*7+20,CTRL_W,CTRL_H,"Counterp.");
+  counterpointAct = new Fl_Choice(CTRL_L-90+50+CTRL_W*12+CTRL_W*2+5,CTRL_T+ADD_TOP+CTRL_H+20,CTRL_W,CTRL_H,"Counterp.");
   counterpointAct->menu(ctpAct);
   counterpointAct->color(COLOR2);
   counterpointAct->box(BOX_TYPE2);
