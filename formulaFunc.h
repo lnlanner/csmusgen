@@ -228,6 +228,7 @@ num = rand();
 k = num%12;
 num = rand();
 l = num%12;
+return 0;
 }
 
 void formula::out_formula()

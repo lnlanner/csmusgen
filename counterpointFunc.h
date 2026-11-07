@@ -340,6 +340,7 @@ tdur[102] = 12.875;
     {
     tact[i] = i;
     }
+return 0;
 }
 
 void select_val()

@@ -403,7 +403,7 @@ Fl_Double_Window* make_help_window() {
   w->end();
   w->resizable(w);
   w->show();
-  
+  return w;
 }
 
 void help_cb(Fl_Widget*, void*)
@@ -553,7 +553,7 @@ void colors_win_cb(Fl_Widget*,void*)
 void make_form()
 {
   readPrefsColor();
-  window = new Fl_Window(100,50,W,H,"csmusgen - Score params");
+  window = new Fl_Window(100,50,W,H,"csMusgen - Score params");
   window->color(COLOR);
   window->resizable(window);
   window->callback(window_callback);

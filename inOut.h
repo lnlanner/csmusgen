@@ -343,10 +343,14 @@ void score_out()
   ofstream out(scoPath->value(), ios::app);
   out.setf(ios::left);
 
-  struct tm *ptr;
-  time_t lt;
-  lt = time('\0');
-  ptr = localtime(&lt);
+  /* struct tm *ptr; */
+  /* time_t lt; */
+  /* lt = time('\0'); */
+  /* ptr = localtime(&lt); */
+    struct tm *ptr;
+    time_t lt;
+    lt = time(nullptr); // Variante standard C++
+    ptr = localtime(&lt);
 
   out << ";>>>csmusgen INPUT session: " << asctime(ptr) << "\n\n";
 
@@ -592,10 +596,14 @@ void out_setting()
 {   
   ofstream out(outData->value(), ios::app);
 
-  struct tm *ptr;
-  time_t lt;
-  lt = time('\0');
-  ptr = localtime(&lt);
+  /* struct tm *ptr; */
+  /* time_t lt; */
+  /* lt = time('\0'); */
+  /* ptr = localtime(&lt); */
+    struct tm *ptr;
+    time_t lt;
+    lt = time(nullptr); // Variante standard C++
+    ptr = localtime(&lt);
 
   out << ";>>>csmusgen INPUT session: " << asctime(ptr) << "\n\n";
   out << setw(25) << "orc file:" << setw(5) << "[" << orcPath->value() << "]" << "\n";
