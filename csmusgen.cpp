@@ -353,7 +353,7 @@ void makeStartWin()
     out1->box(FL_BORDER_BOX);
     out1->color(FL_WHITE);
     out1->labelcolor(FL_RED);
-    out1->label("CSMUSGEN - VERSION 0.1.3.4");
+    out1->label("CSMUSGEN - VERSION 2.0.0");
     out1->align(FL_ALIGN_TOP_LEFT);
     out1->labelfont(FL_BOLD);
     out1->labelsize(22);
